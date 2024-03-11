@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  .dot {
+    width: 10px; /* Diameter of the dot */
+    height: 10px; /* Diameter of the dot */
+    border-radius: 50%; /* Make it a circle */
+   
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-button {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .images-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image {
+    width: 160px; /* Adjust image size as needed */
+    height: 130px; /* Adjust image size as needed */
+    margin: 20px; /* Adjust spacing between images as needed */
+    position: absolute;
+  }
+  .imageMobile {
+    width: 160px; /* Adjust image size as needed */
+    height: 130px; /* Adjust image size as needed */
+  
+  }
+  .homeContainer{
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body {
+    min-height: 100%;
+    background-color: #faf3ea;
+   
+    /* background-image: url('your-background-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+  }

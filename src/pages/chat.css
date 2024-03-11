@@ -1,0 +1,95 @@
+.container {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+   
+  }
+ 
+  .chat-window {
+    width: 600px;
+    height: 600px;
+    overflow-y: auto;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .user {
+    background-color: #cce6ff;
+    color: #0000ff; /* Blue color for user's message */
+  }
+  
+  .bot {
+    background-color: #e6ffe6;
+    color: #008000; /* Green color for bot's response */
+  }
+  
+  .input-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* Move it to the center horizontally */
+    transform: translateX(-50%); /* Center the element relative to its own width */
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width if necessary */
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .input-container input {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid gray;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 14px 26px;
+    border-radius: 10px;
+    color:rgb(225, 227, 225);
+    background-color: #8e8ed6;
+    font-size: 18px;
+    border:1px solid gray
+  }
+  /* hjjj */
+  input:focus {
+    outline: none;
+  }
+  .InputWithIcon {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+    left: 50%; /* Move it to the center horizontally */
+    transform: translateX(-50%); /* Center the element relative to its own width */
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width if necessary */
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 50px); /* Adjust the width of the input field minus the icon width */
+    padding: 10px;
+    border: none;
+    
+    border-radius: 5px;
+  }
+  
+  .Icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    margin-right: 5px; /* Adjust the margin between the icon and the input field */
+  }
